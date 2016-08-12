@@ -8,26 +8,33 @@
 		<header class="main-header">
 			<div class="header">
 				<div class="container">
-					<img src="#" alt="logo">
+					<a href="#" class="logo">техномарт</a>
 					<form action="#" method="post" class="search">
 						<label>Поиск: <input type="text" name="search"></label>	
 					</form>
-					<a href="#">Закладки</a>
-					<a href="#">Корзина</a>
-					<a href="#">Оформить заказ</a>
+					<div class="menu">
+						<a href="#">Закладки</a>
+						<a href="#">Корзина</a>
+						<a href="#">Оформить заказ</a>
+					</div>
 				</div>
 			</div>
 			<div class="header-continue">
 				<div class="container">
-						<p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
-							<article>
-								<p>+7(812)555-05-55</p>
-								<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-							</article>
+					<p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+					<article>
+						<p>+7(812)555-05-55</p>
+						<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+					</article>
 					<div class="personal-cabinet">
-						<button>Равшан Джамшутович</button>
-						<a href="#">Мои заказы</a>
-						<a href="#">Личный кабинет</a>
+						<div class="personal-cabinet-name">
+							<button>Равшан Джамшутович</button>
+							<a href="#"><button>exit</button></a>
+						</div>
+						<div class="personal-cabinet-action">
+							<a href="#">Мои заказы</a>
+							<a href="#">Личный кабинет</a>
+						</div>
 					</div>
 					<nav class="main-navigation">
 						<ul>
@@ -66,7 +73,7 @@
 				</div>
 				<h1>Перфораторы</h1>
 				<form action="#" method="get" class="filter">
-					<h3>Фильтр:</h3>
+					<p>Фильтр:</p>
 					<div class="price">
 						<h2>Цена:</h2>
 						<!-- блок с регулировкой цены, пока не знаю как реализовать -->
@@ -95,113 +102,132 @@
 				</form>
 				<div class="right-column">
 					<div class="sorting">
-					<!-- тоже пока не знаю, как реализовать -->
+						<p>сортировка</p>
+						<ul>
+							<li>
+								<p>по цене</p>
+							</li>
+							<li>
+								<p>по типу</p>
+							</li>
+							<li>
+								<p>по функционалу</p>
+							</li>
+						</ul>
+						<button class="up">up</button>
+						<button class="down">down</button>
 					</div>
-					<article class="item-card flag flag-new">
-						<div class="item-action">
-							<a href="#" class="btn-buy icon-basket">Купить</a>
-							<a href="#" class="btn-bookmark">В закладки</a>
-						</div>
-						<div class="item-card image">
-							<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
-						</div>
-						<h2>перфоратор BOSH BFG 9000</h2>
-						<p class="price">32500 р</p>
-						<a href="#" class="price-new">25500 р</a>
-					</article>
-					<article>
-						<div class="item-action">
-							<a href="#" class="btn-buy icon-basket">Купить</a>
-							<a href="#" class="btn-bookmark">В закладки</a>
-						</div>
-						<div class="item-card image">
-							<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
-						</div>
-						<h2>перфоратор BOSH BFG 9000</h2>
-						<p class="price">32500 р</p>
-						<a href="#" class="price-new">25500 р</a>
-					</article>
-					<article>
-						<div class="item-action">
-							<a href="#" class="btn-buy icon-basket">Купить</a>
-							<a href="#" class="btn-bookmark">В закладки</a>
-						</div>
-						<div class="item-card image">
-							<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
-						</div>
-						<h2>перфоратор BOSH BFG 9000</h2>
-						<p class="price">32500 р</p>
-						<a href="#" class="price-new">25500 р</a>
-					</article>
-					<article>
-						<div class="item-action">
-							<a href="#" class="btn-buy icon-basket">Купить</a>
-							<a href="#" class="btn-bookmark">В закладки</a>
-						</div>
-						<div class="item-card image">
-							<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
-						</div>
-						<h2>перфоратор BOSH BFG 3000</h2>
-						<p class="price">22500 р</p>
-						<a href="#" class="price-new">15500 р</a>
-					</article>
-					<article>
-						<div class="item-action">
-							<a href="#" class="btn-buy icon-basket">Купить</a>
-							<a href="#" class="btn-bookmark">В закладки</a>
-						</div>
-						<div class="item-card image">
-							<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
-						</div>
-						<h2>перфоратор BOSH BFG 3000</h2>
-						<p class="price">22500 р</p>
-						<a href="#" class="price-new">15500 р</a>
-					</article>
-					<article>
-						<div class="item-action">
-							<a href="#" class="btn-buy icon-basket">Купить</a>
-							<a href="#" class="btn-bookmark">В закладки</a>
-						</div>
-						<div class="item-card image">
-							<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
-						</div>
-						<h2>перфоратор BOSH BFG 3000</h2>
-						<p class="price">22500 р</p>
-						<a href="#" class="price-new">15500 р</a>
-					</article>
-					<article>
-						<div class="item-action">
-							<a href="#" class="btn-buy icon-basket">Купить</a>
-							<a href="#" class="btn-bookmark">В закладки</a>
-						</div>
-						<div class="item-card image">
-							<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
-						</div>
-						<h2>перфоратор BOSH BFG 2000</h2>
-						<a href="#" class="price-new">12500 р</a>
-					</article>
-					<article>
-						<div class="item-action">
-							<a href="#" class="btn-buy icon-basket">Купить</a>
-							<a href="#" class="btn-bookmark">В закладки</a>
-						</div>
-						<div class="item-card image">
-							<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
-						</div>
-						<h2>перфоратор BOSH BFG 2000</h2>
-						<a href="#" class="price-new">12500 р</a>
-					</article>
-					<article>
-						<div class="item-action">
-							<a href="#" class="btn-buy icon-basket">Купить</a>
-							<a href="#" class="btn-bookmark">В закладки</a>
-						</div>
-						<div class="item-card image">
-							<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
-						</div>
-						<h2>перфоратор BOSH BFG 2000</h2>
-						<a class="price-new">12500 р</a>
-					</article>
+					<div class="block-1">
+						<article class="item-card flag flag-new">
+							<div class="item-action">
+								<a href="#" class="btn-buy icon-basket">Купить</a>
+								<a href="#" class="btn-bookmark">В закладки</a>
+							</div>
+							<div class="item-card image">
+								<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
+							</div>
+							<h2>перфоратор BOSH BFG 9000</h2>
+							<p class="price">32500 р</p>
+							<a href="#" class="price-new">25500 р</a>
+						</article>
+						<article>
+							<div class="item-action">
+								<a href="#" class="btn-buy icon-basket">Купить</a>
+								<a href="#" class="btn-bookmark">В закладки</a>
+							</div>
+							<div class="item-card image">
+								<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
+							</div>
+							<h2>перфоратор BOSH BFG 9000</h2>
+							<p class="price">32500 р</p>
+							<a href="#" class="price-new">25500 р</a>
+						</article>
+						<article>
+							<div class="item-action">
+								<a href="#" class="btn-buy icon-basket">Купить</a>
+								<a href="#" class="btn-bookmark">В закладки</a>
+							</div>
+							<div class="item-card image">
+								<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
+							</div>
+							<h2>перфоратор BOSH BFG 9000</h2>
+							<p class="price">32500 р</p>
+							<a href="#" class="price-new">25500 р</a>
+						</article>
+					</div>
+					<div class="block-2">
+						<article>
+							<div class="item-action">
+								<a href="#" class="btn-buy icon-basket">Купить</a>
+								<a href="#" class="btn-bookmark">В закладки</a>
+							</div>
+							<div class="item-card image">
+								<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
+							</div>
+							<h2>перфоратор BOSH BFG 3000</h2>
+							<p class="price">22500 р</p>
+							<a href="#" class="price-new">15500 р</a>
+						</article>
+						<article>
+							<div class="item-action">
+								<a href="#" class="btn-buy icon-basket">Купить</a>
+								<a href="#" class="btn-bookmark">В закладки</a>
+							</div>
+							<div class="item-card image">
+								<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
+							</div>
+							<h2>перфоратор BOSH BFG 3000</h2>
+							<p class="price">22500 р</p>
+							<a href="#" class="price-new">15500 р</a>
+						</article>
+						<article>
+							<div class="item-action">
+								<a href="#" class="btn-buy icon-basket">Купить</a>
+								<a href="#" class="btn-bookmark">В закладки</a>
+							</div>
+							<div class="item-card image">
+								<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
+							</div>
+							<h2>перфоратор BOSH BFG 3000</h2>
+							<p class="price">22500 р</p>
+							<a href="#" class="price-new">15500 р</a>
+						</article>
+					</div>
+					<div class="block-3">
+						<article>
+							<div class="item-action">
+								<a href="#" class="btn-buy icon-basket">Купить</a>
+								<a href="#" class="btn-bookmark">В закладки</a>
+							</div>
+							<div class="item-card image">
+								<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
+							</div>
+							<h2>перфоратор BOSH BFG 2000</h2>
+							<a href="#" class="price-new">12500 р</a>
+						</article>
+						<article>
+							<div class="item-action">
+								<a href="#" class="btn-buy icon-basket">Купить</a>
+								<a href="#" class="btn-bookmark">В закладки</a>
+							</div>
+							<div class="item-card image">
+								<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
+							</div>
+							<h2>перфоратор BOSH BFG 2000</h2>
+							<a href="#" class="price-new">12500 р</a>
+						</article>
+						<article>
+							<div class="item-action">
+								<a href="#" class="btn-buy icon-basket">Купить</a>
+								<a href="#" class="btn-bookmark">В закладки</a>
+							</div>
+							<div class="item-card image">
+								<img src="#" width="100" height="50" alt="перфоратор BOSH BFG 9000">
+							</div>
+							<h2>перфоратор BOSH BFG 2000</h2>
+							<a class="price-new">12500 р</a>
+						</article>
+					</div>
 					<div class="page">
 						<a class="active-page" href="#">1</a>
 						<a href="#">2</a>
