@@ -64,28 +64,15 @@
 					<div class="popular-sentence">
 						<article class="materials">
 							<h2>Материалы</h2>
-							<span class="icon icon-materials"></span>
 							<a href="#">на любой вкус</a>
 						</article>
 						<article class="tools">
 							<h2>Инструмент</h2>
-							<span class="icon icon-tools"></span>
 							<a href="#">на все случаи</a>
 						</article>
 						<article class="technique">
 							<h2>Техника</h2>
-							<span class="icon icon-technique"></span>
 							<a href="#">для стройки</a>
-						</article>
-						<article class="sale">
-							<h2>Скидки 50%</h2>
-							<span class="icon icon-sale"></span>
-							<a href="#">на 350 товаров</a>
-						</article>
-						<article class="transport">
-							<h2>Доставка</h2>
-							<span class="icon icon-transport"></span>
-							<a href="#">бесплатно</a>
 						</article>
 						<article class="slider">
 							<h2>Перфораторы</h2>
@@ -100,6 +87,14 @@
 								</div>
 							</div>
 							<a href="#">открыть каталог</a>
+						</article>
+						<article class="sale">
+							<h2>Скидки 50%</h2>
+							<a href="#">на 350 товаров</a>
+						</article>
+						<article class="transport">
+							<h2>Доставка</h2>
+							<a href="#">бесплатно</a>
 						</article>
 					</div>
 					<div class="products">
@@ -174,18 +169,25 @@
 			<section class="service">
 				<div class="container">
 					<h2>Сервисы</h2>
+					<p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 					<div class="slider">
-					<div class="slider-controls"></div>
-						<div class="slider-inner">
-							<div class="slider-slides">
-								<img src="#" alt="доставка">
-								<img src="#" alt="гарантия">
-								<img src="#" alt="кредит">
-							</div>
+						<input type="radio" id="button-1" name="slide-1" checked>
+						<input type="radio" id="button-2" name="slide-2">
+						<div class="slider-controls">
+							<label class="slider-prev" for="button-1"></label>
+							<label class="slider-next" for="button-2"></label>
+						</div>
+						<div class="slide-1">
+							<h2>Перфораторы</h2>
+							<p>Настоящие мужские игрушки</p>
+							<a href="#">Открыть каталог</a>
+						</div>
+						<div class="slide-2">
+							<h2></h2>
+							<p></p>
+							<a href="#">Открыть каталог</a>
 						</div>
 					</div>
-					<p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-					<img src="#" width="500" height="300" alt="sleder-service">
 				</div>
 			</section>
 			<section class="contacts">
@@ -214,7 +216,7 @@
 		<footer class="main-footer">
 			<div class="footer-1">
 				<div class="container">
-					<span class="logo">техномарт</span>
+					<a href="#" class="logo">техномарт</a>
 					<section class="footer-adress">
 						<p>г. Санкт-Петербург, ул. Б. Конюшенная, д.19/8</p>
 						<p>+7 (812) 555-05-55</p>
