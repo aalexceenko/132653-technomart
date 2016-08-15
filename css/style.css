@@ -1,5 +1,5 @@
 .body {
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 24px;
 	color: #000000;
 	font-weight: normal;
@@ -8,8 +8,10 @@
 .h1 {
 	font-size: 30px;
 	line-height: 30px;
+	font-family: "Cuprum", sans-serif;
 }
 .h2 {
 	font-size: 14px;
 	line-height: 20px;
+	font-family: "Cuprum", sans-serif;
 }
