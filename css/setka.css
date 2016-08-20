@@ -12,6 +12,7 @@ body {
 .container {
 	width: 940px;
   padding: 0 10px;
+  margin: 0 auto;
 }
 .logo {
 	float: left;
@@ -24,32 +25,53 @@ body {
 }
 .search {
 	float: left;
-	width: 245px;
+	width: 272px;
 	margin-top: 10px;
 
 }
-.menu {
-	width: 150px;
-	display: inline-block;
+.menu  {
+	width: 428px;
 	float: left;
-	margin-right: 10px;
+	
 	background: white;
 	height: 43px;
 
 }
+.header-continue {
+	height: 280px;
+	background: #f1f5f7;
+}
 .header-continue p {
 	width: 300px;
-	height: 160px;
+	height: 110px;
 	float: left;
 	background: yellow;
 	margin-right: 20px;
+
 }
 .user-block {
+	margin-top: 16px;
 	width: 300px;
-	height: 160px;
+	height: 110px;
 	float: left;
 	background: yellow;
 	
+}
+.user-block .login {
+	width: 120px;
+	height: 44px;
+	background: white;
+	display: inline-block;
+	margin-left: 19px;
+	margin-right: 10px;
+
+}
+.user-block .registration {
+	width: 147px;
+	height: 44px;
+	background: white;
+	display: inline-block;
+
 }
 .clearfix::after {
     display: table;
@@ -61,7 +83,9 @@ body {
 	
 	height: 60px;
 	width: 940px;
-	background: pink;
+	background: #32425c;
+	color: white;
+	margin-bottom: 60px;
 
 }
 .main-navigation li {
@@ -71,86 +95,131 @@ body {
 .popular-sentence {
 	width: 940px;
 	height: 410px;
-	background: blue;
+	margin-bottom: 54px;
+	margin-top: 60px;
 }
-.materials {
-	float: left;
+.popular-sentence article {
+	float: right;
+	outline: 1px dashed black;
 	width: 300px;
 	height: 124px;
-	border: 1px dashed black;
-	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
-.tools {
-	float: left;
-	width: 300px;
-	height: 124px;
-	border: 1px dashed black;
-	margin-right: 20px;
+.popular-sentence article:nth-child(3n) {
+		margin-left: 0px;
+
 }
-.technique {
+.popular-sentence .slider-image {
+	width: 620px;
+	height: 270px;
 	float: left;
-	width: 290px;
-	height: 124px;
-	border: 1px dashed black;
-	
-}
-.slider-image {
-	width: 621px;
-	height: 267px;
-	margin-top: 20px;
-	float: left;
-	border: 1px dashed black;
-}
-.sale {
-	float: left;
-	width: 290px;
-	height: 124px;
-	border: 1px dashed black;
-	margin-left: 10px;
-}
-.transport {
-	float: left;
-	width: 290px;
-	height: 124px;
-	margin-left: 10px;
-	border: 1px dashed black;
+	margin-left: 0px;
 }
 .products {
 	margin-top: 10px;
 	height: 90px;
 	width: 940px;
 	border: 1px dashed black;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+	background: #f7f3ec;
+}
+.products p {
+	float: left;
+	width: 362px;
+	height: 35px;
+	margin-left: 25px;
+	margin-top: 25px;
+	outline: 1px dashed black;
+}
+.products a {
+	float: right;
+	width: 250px;
+	height: 38px;
+	margin-right: 25px;
+	margin-top: 28px;
+	outline: 1px dashed black;
 }
 .popular-products article {
-	width: 210px;
+	width: 220px;
 	height: 317px;
 	float: left;
 	margin-right: 20px;
-	border: 1px dashed black;
+	outline: 1px dashed black;
+	margin-bottom: 25px;
 }
 .popular-products article:last-child {
 	margin-right: 0px;
 }
+.materials {
+	background: #f6b22d;
+}
+.tools {
+	background: #4aafde;
+}
+.technique {
+	background: #cc79d1;
+}
+.sale {
+	background: #85d179;
+}
+.transport {
+	background: #f6b22d;
+}
 .firms {
-		margin-top: 10px;
+	
 	height: 90px;
 	width: 940px;
 	border: 1px dashed black;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
+	background: #f7f3ec;
 }
+.firms p {
+	float: left;
+	width: 362px;
+	height: 35px;
+	margin-left: 25px;
+	margin-top: 25px;
+	outline: 1px dashed black;
+}
+.firms a {
+	float: right;
+	width: 250px;
+	height: 38px;
+	margin-right: 25px;
+	margin-top: 28px;
+	outline: 1px dashed black;
+}
+
 .popular-firms {
-	width: 220px;
-	height: 144px;
+
+	width: 940px;
+	height: 310px;
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 20px;
 	border: 1px dashed black;
 }
+.popular-firms a {
+	width: 220px;
+	height: 145px;
+	outline: 1px dashed black;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.popular-firms img {
+	*left: 50%;
+	top: 50%;
+	transform: translateX(50%) translateY(74%);
+}
+.popular-firms a:nth-child(4n) {
+	margin-right: 0px;
+}
 .service {
-		margin-top: 10px;
+	margin-top: 10px;
 	height: 520px;
-	
+	background: #f2f6f8;
 	border: 1px dashed black;
 	margin-bottom: 10px;
 
@@ -172,32 +241,42 @@ body {
 	height: 193px;
 	border: 1px dashed black;
 }
+
+.column-1 {
+	float: left;
+
+	width: 380px;
+	height: 194px;
+}
 .logo-footer {
 	float: left;
-	margin-bottom: 30px;
-	margin-right: 30px;
+	margin-bottom: 10px;
 	width: 220px;
 	height: 70px;
 	background: #ee3643;
-
+	outline: 1px dashed black;
 }
 .footer-adress {
-	width: 340px;
-	height: 60px;
+	outline: 1px dashed black;
+	width: 370px;
+	height: 70px;
 	float: left;
-	border: 1px dashed black;
+}
+.column-2 {
+	float: right;
+	width: 560px;
+
 }
 .footer-page-1 {
-	width: 570px;
-	float: right;
-	border: 1px dashed black;
-	margin-bottom: 10px;
+	height: 60px;
+	outline: 1px dashed black;
+
 }
 .footer-page-2 {
-	width: 570px;
-	float: right;
-	border: 1px dashed black;
-	margin-bottom: 10px;
+	height: 60px;
+	outline: 1px dashed black;
+	margin-top: 30px;
+
 }
 .footer-2 {
 	height: 107px;
