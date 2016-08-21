@@ -17,10 +17,10 @@
 }
 html,
 body {
-  min-width: 1122px;
-  min-height: 1750px;
-  margin: 0;
-  padding: 0;
+	min-width: 1122px;
+	min-height: 1750px;
+	margin: 0;
+	padding: 0;
 }
 .header {
 	min-height: 43px;
@@ -28,8 +28,8 @@ body {
 }
 .container {
 	width: 940px;
-  padding: 0 10px;
-  margin: 0 auto;
+	padding: 0 10px;
+	margin: 0 auto;
 }
 .logo {
 	float: left;
@@ -38,21 +38,17 @@ body {
 	height: 43px;
 	margin-right: 20px;
 	text-align: center;
-
 }
 .search {
 	float: left;
 	width: 272px;
 	margin-top: 10px;
-
 }
-.menu  {
+.menu {
 	width: 428px;
 	float: left;
-	
 	background: white;
 	height: 43px;
-
 }
 .header-continue {
 	height: 280px;
@@ -64,7 +60,6 @@ body {
 	float: left;
 	background: yellow;
 	margin-right: 20px;
-
 }
 .user-block, .personal-cabinet {
 	margin-top: 16px;
@@ -72,38 +67,34 @@ body {
 	height: 110px;
 	float: left;
 	background: yellow;
-	
 }
 .user-block .login {
 	width: 120px;
 	height: 44px;
 	background: white;
 	display: inline-block;
+	vertical-align: middle;
 	margin-left: 19px;
 	margin-right: 10px;
-
 }
 .user-block .registration {
 	width: 147px;
 	height: 44px;
 	background: white;
 	display: inline-block;
-
+	vertical-align: middle;
 }
 .clearfix::after {
-    display: table;
-    content: "";
-    clear: both;
+	display: table;
+	content: "";
+	clear: both;
 }
-
 .main-navigation {
-	
 	height: 60px;
 	width: 940px;
 	background: #32425c;
 	color: white;
 	margin-bottom: 60px;
-
 }
 .main-navigation li {
 	display: inline-block;
@@ -124,8 +115,7 @@ body {
 	margin-bottom: 20px;
 }
 .popular-sentence article:nth-child(3n) {
-		margin-left: 0px;
-
+	margin-left: 0px;
 }
 .popular-sentence .slider-image {
 	width: 620px;
@@ -165,7 +155,6 @@ body {
 	outline: 1px dashed black;
 	margin-bottom: 25px;
 }
-
 .catalog article:nth-child(3n) {
 	margin-right: 0px;
 }
@@ -191,7 +180,6 @@ body {
 	background: #f6b22d;
 }
 .firms {
-	
 	height: 90px;
 	width: 940px;
 	border: 1px dashed black;
@@ -214,9 +202,7 @@ body {
 	margin-top: 28px;
 	outline: 1px dashed black;
 }
-
 .popular-firms {
-
 	width: 940px;
 	height: 310px;
 	float: left;
@@ -231,11 +217,13 @@ body {
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 20px;
+	position: relative;
 }
 .popular-firms img {
-	*left: 50%;
+	position: absolute;
 	top: 50%;
-	transform: translateX(50%) translateY(74%);
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
 }
 .popular-firms a:nth-child(4n) {
 	margin-right: 0px;
@@ -246,7 +234,6 @@ body {
 	background: #f2f6f8;
 	border: 1px dashed black;
 	margin-bottom: 10px;
-
 }
 .company {
 	width: 570px;
@@ -265,10 +252,8 @@ body {
 	height: 193px;
 	border: 1px dashed black;
 }
-
 .column-1 {
 	float: left;
-
 	width: 380px;
 	height: 194px;
 }
@@ -289,22 +274,19 @@ body {
 .column-2 {
 	float: right;
 	width: 560px;
-
 }
 .footer-page-1 {
 	height: 60px;
 	outline: 1px dashed black;
-
 }
 .footer-page-2 {
 	height: 60px;
 	outline: 1px dashed black;
 	margin-top: 30px;
-
 }
 .footer-2 {
 	height: 107px;
-border: 1px dashed black;
+	border: 1px dashed black;
 }
 .footer-company {
 	float: left;
@@ -326,7 +308,6 @@ border: 1px dashed black;
 	border: 1px dashed black;
 	margin-right: 20px;
 	float: left;
-
 }
 .breadcrumbs {
 	margin-top: 24px;
@@ -359,7 +340,6 @@ border: 1px dashed black;
 	margin-bottom: 20px;
 }
 .filter-firms {
-	
 	height: 234px;
 	outline: 1px dashed black;
 }
@@ -376,14 +356,12 @@ border: 1px dashed black;
 	width: 700px;
 	min-height: 1054px;
 	margin-top: 0px;
-
 }
 .sorting  {
 	height: 38px;
 	outline: 1px dashed black;
 	width: 700px;
 	margin-top: 0px;
-
 }
 .sorting p {
 	height: 38px;
@@ -392,7 +370,6 @@ border: 1px dashed black;
 	margin-top: 0px;
 	float: left;
 	margin-right: 20px;
-
 }
 .page {
 	width: 234px;
