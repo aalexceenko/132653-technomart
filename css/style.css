@@ -6,31 +6,29 @@ body {
 	font-family: "PT Sans", "Cuprum" sans-serif;
 }
 @font-face {
-  font-weight: normal;
-  font-style: normal;
+	font-weight: normal;
+	font-style: normal;
 
-  font-family: "symbols-technomart";
-  src: url("../fonts/symbols-technomart.woff") format("woff"),
-       url("../fonts/symbols-technomart.woff2") format("woff2");
+	font-family: "symbols-technomart";
+	src: url("../fonts/symbols-technomart.woff") format("woff"),
+		url("../fonts/symbols-technomart.woff2") format("woff2");
 }
 
 [class^="icon-"]::before,
 [class*=" icon-"]::before {
-  display: inline-block;
-  width: 1em;
-  margin-right: 0.2em;
-  margin-left: 0.2em;
-
-  font-weight: normal;
-  line-height: 1em;
-  font-family: "symbols-technomart";
-  text-align: center;
-  text-transform: none;
-  text-decoration: inherit;
-  font-style: normal;
-  font-variant: normal;
-
-  speak: none;
+	display: inline-block;
+	width: 1em;
+	margin-right: 0.2em;
+	margin-left: 0.2em;
+	font-weight: normal;
+	line-height: 1em;
+	font-family: "symbols-technomart";
+	text-align: center;
+	text-transform: none;
+	text-decoration: inherit;
+	font-style: normal;
+	font-variant: normal;
+	speak: none;
 }
 
 .icon-left::before { content: "\3c"; } /* "&lt;" */
@@ -133,7 +131,6 @@ body {
 	width: 150px;
 	height: 43px;
 	margin-left: -3px;
-
 }
 .menu a:hover {
 	background-color: #212a3a;
@@ -584,14 +581,14 @@ body {
 	position: relative;
 }
 .company li::before {
-    content: "";
-    position: absolute;
-    bottom: 16px;
-    left: -39px;
-    display: block;
-    width: 25px;
-    height: 2px;
-    background-color: #ee3643;
+	content: "";
+	position: absolute;
+	bottom: 16px;
+	left: -39px;
+	display: block;
+	width: 25px;
+	height: 2px;
+	background-color: #ee3643;
 }
 .company a {
 	width: 220px;
@@ -912,37 +909,33 @@ body {
 	margin-top: 0px;
 	float: left;
 	margin-right: 0px;
-   color: #000000;
-    font-family: "PT Sans";
-    font-size: 13px;
-    line-height: 18px;
-    box-sizing: border-box;
-    padding-left: 18px;
-    padding-top: 10px;
-    text-transform: uppercase;
-
+	color: #000000;
+	font-family: "PT Sans";
+	font-size: 13px;
+	line-height: 18px;
+	box-sizing: border-box;
+	padding-left: 18px;
+	padding-top: 10px;
+	text-transform: uppercase;
 }
 .sorting a {
 	display: inline-block;
 	text-transform: uppercase;
 	color: #acaaa5;
-    font-family: "PT Sans";
-    font-size: 13px;
-    line-height: 18px;
-    box-sizing: border-box;
-    padding-left: 18px;
-    padding-top: 10px;
-    text-transform: uppercase;
-    padding-right: 40px;
-
+	font-family: "PT Sans";
+	font-size: 13px;
+	line-height: 18px;
+	box-sizing: border-box;
+	padding-left: 18px;
+	padding-top: 10px;
+	text-transform: uppercase;
+	padding-right: 40px;
 }
 .sorting a:last-child {
 	padding-left: 0px;
 }
 .page {
-
 	height: 40px;
-
 	margin-bottom: 20px;
 }
 .page a {
@@ -951,7 +944,7 @@ body {
 	width: 40px;
 	height: 40px;
 	margin-right: 15px;
-    outline: 1px solid #f7f3ec;
+	outline: 1px solid #f7f3ec;
 	text-align: center;
 	text-decoration: none;
 	color: #000000;
