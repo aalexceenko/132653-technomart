@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<link href="css/style.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
 		<title>Техномарт</title>
 	</head>
 	<body>
@@ -11,24 +13,24 @@
 				<div class="container">
 					<a href="/" class="logo">техномарт</a>
 					<form action="#" method="post" class="search">
-						<label>Поиск: <input type="text" name="search"></label>	
+						<label><span class="icon-search"></span> Поиск: <input type="text" name="search"></label>	
 					</form>
 					<div class="menu">
-						<a href="#">Закладки</a>
-						<a href="#">Корзина</a>
+						<a href="#"><span class="icon-bookmark"></span>Закладки</a>
+						<a href="#"><span class="icon-basket">Корзина</a>
 						<a href="#">Оформить заказ</a>
 					</div>
 				</div>
 			</div>
 			<div class="header-continue">
 				<div class="container">
-					<p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+					<p class="italic">Интернет-магазин строительных материалов и инструментов для ремонта</p>
 					<article>
-						<p>+7(812)555-05-55<br>
-						г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+						<p class="header-number"><span class="icon-phone"></span>+7 (812) 555-05-55</p>
+						<p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 					</article>
 					<div class="user-block">
-						<a class="login" href="#">Вход</a>
+						<a class="login" href="#"><span class="icon-login"></span>Войти</a>
 						<a class="registration" href="#">Регистрация</a>
 					</div>
 					<div class="clearfix"></div>
@@ -41,7 +43,7 @@
 								<a href="#">Компания</a>
 							</li>
 							<li>
-								<a href="file:///C:/Users/Nastya/Documents/GitHub/132653-technomart/technomart-catalog.html">Каталог</a>
+								<a href="technomart-catalog.html">Каталог</a>
 							</li>
 							<li>
 								<a href="#">Новости</a>
@@ -64,15 +66,15 @@
 			<section class="promo">
 				<div class="container">
 					<div class="popular-sentence clearfix">
-						<article class="technique">
+						<article class="sprait technique">
 							<h2>Техника</h2>
 							<a href="#">для стройки</a>
 						</article>
-						<article class="tools">
+						<article class="sprait tools">
 							<h2>Инструмент</h2>
 							<a href="#">на все случаи</a>
 						</article>
-						<article class="materials">
+						<article class="sprait materials">
 							<h2>Материалы</h2>
 							<a href="#">на любой вкус</a>
 						</article>
@@ -81,7 +83,7 @@
 							<h2>Скидки 50%</h2>
 							<a href="#">на 350 товаров</a>
 						</article>
-						<article class="transport">
+						<article class="sprait transport">
 							<h2>Доставка</h2>
 							<a href="#">бесплатно</a>
 						</article>
@@ -99,8 +101,8 @@
 							<div class="item-card image">
 								<img src="img/BFG9000.jpg" width="220" height="160" alt="перфоратор BOSH BFG 9000">
 							</div>
-							<a href="#">перфоратор BOSH BFG 9000</a>
-							<p class="price">32500 р</p>
+							<p>Перфоратор BOSH BFG 9000</p>
+							<p class="price-old">32500 р</p>
 							<a href="#" class="price-new">25500 р</a>
 						</article>
 						<article>
@@ -111,8 +113,8 @@
 							<div class="item-card image">
 								<img src="img/BFG3000.jpg" width="220" height="160" alt="перфоратор BOSH BFG 3000">
 							</div>
-							<a href="#">перфоратор BOSH BFG 3000</a>
-							<p class="price">22500 р</p>
+							<p>Перфоратор BOSH BFG 3000</p>
+							<p class="price-old">22500 р</p>
 							<a class="price-new" href="#">15500 р</a>
 						</article>
 						<article>
@@ -123,8 +125,8 @@
 							<div class="item-card image">
 								<img src="img/BFG6000.jpg" width="220" height="160" alt="перфоратор BOSH BFG 6000">
 							</div>
-							<a href="#">перфоратор BOSH BFG 6000</a>
-							<p class="price">30500 р</p>
+							<p>Перфоратор BOSH BFG 6000</p>
+							<p class="price-old">30500 р</p>
 							<a class="price-new" href="#">25500 р</a>
 						</article>
 						<article>
@@ -135,8 +137,8 @@
 							<div class="item-card image">
 								<img src="img/BFG2000.jpg" width="220" height="160" alt="перфоратор BOSH BFG 2000">
 							</div>
-							<a href="#">перфоратор BOSH BFG 2000</a>
-							<a class="price-new" href="#">12500 р</a>
+							<p>Перфоратор BOSH BFG 2000</p>
+							<a class="price-news" href="#">12500 р</a>
 						</article>
 					</div>
 					<div class="clearfix"></div>
@@ -171,7 +173,7 @@
 					<div class="company">
 						<h2>Компания "Техномарт"</h2>
 						<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
-						<p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:</p>
+						<p>Мы можем доставить ваш товар в самые отдаленные точки России! <br>Техномарт работает со многими транспортными компаниями:</p>
 						<ul>
 							<li>Деловые линии</li>
 							<li>Автотрейдинг</li>
@@ -183,8 +185,7 @@
 						<h2>Контакты</h2>
 						<p>Вы можете забрать товар сами, заехав в наш офис:</p>
 						<a href="#"><img src="img/map.jpg" alt="map"></a>
-						<a href="#">Заблудились? напишите нам!</a>
-						<form></form>
+						<form>Заблудились? напишите нам!</form>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -228,14 +229,15 @@
 						<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
 						<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
 					</section>
+					<section class="footer-copyright">
+						<p>Разработано - </p>
+						<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+					</section>
 					<section class="footer-feedback">
 						<p>Обратная связь:</p>
 						<a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
 					</section>
-					<section class="footer-copyright">
-						<p>Разработано:</p>
-						<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-					</section>
+					
 				</div>
 			</div>
 		</footer>
