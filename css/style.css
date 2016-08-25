@@ -309,7 +309,7 @@ body {
 }
 .popular-sentence h2 {
 	font-family: "Cuprum";
-	font-style: bold;
+	font-weight: bold;
 	font-size: 24px;
 	line-height: 30px;
 	color: #ffffff;
@@ -400,7 +400,7 @@ body {
 }
 .popular-products p, .catalog p {
 	font-family: "PT Sans";
-	font-style: bold;
+	font-weight: bold;
 	font-size: 18px;
 	margin: 0;
 	padding-top: 0px;
@@ -427,7 +427,7 @@ body {
 	padding-top: 13px;
 	font-size: 17px;
 	font-family: "PT Sans";
-	font-style: bold;
+	font-weight: bold;
 	line-height: 18px;
 	color: #ffffff;
 	background-color: #ee3643;
@@ -445,7 +445,7 @@ body {
 	padding-top: 13px;
 	font-size: 17px;
 	font-family: "PT Sans";
-	font-style: bold;
+	font-weight: bold;
 	line-height: 18px;
 	color: #ffffff;
 	background-color: #ee3643;
@@ -854,7 +854,7 @@ body {
 }
 .filter h2, .filter-firms h2, .nutrition h2 {
 	font-family: "PT Sans";
-	font-style: bold;
+	font-weight: bold;
 	font-size: 17px;
 	line-height: 30px;
 	text-transform: uppercase;
