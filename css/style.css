@@ -780,10 +780,7 @@ body {
 .footer-copyright .btn {
 	margin-right: 0;
 }
-.footer-copyright .btn:hover {
-	color: #000000;
-	background-color: #ffffff;
-}
+
 .footer-social {
 	float: left;
 	width: 178px;
@@ -884,9 +881,56 @@ body {
 .filter-firms input, .nutrition input {
 	margin-bottom: 15px;
 }
-.nutrition input[type="submit"] {
+.filter-firms label {
+	position: relative;
+	cursor: pointer;
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 9px;
+	display: inline-block;
+	vertical-align: top;
+	font-family: "PT Sans";
+	font-size: 15px;
+	line-height: 20px;
+	color: #000000;
+	text-transform: uppercase;
+}
+.filter-firms input[type="checkbox"] {
+	display: none;
+}
+/*.filter-firms input[type="checkbox"]:checked + label::before {
+	background: url("../img/spritesheet.png") no-repeat;
+	background-position: -3px -3px;
+}*/
+.nutrition label {
+	position: relative;
+	cursor: pointer;
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 9px;
+	display: inline-block;
+	vertical-align: top;
+	font-family: "PT Sans";
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+	text-transform: uppercase;
+}
+.nutrition input[type="radio"] {
+	display: none;
+}
+.filter input[type="submit"] {
 	margin-top: 77px;
-	/*не работает*/
+	width: 140px;
+	height: 40px;
+	font-family: "PT Sans";
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	padding-top: 3px;
+	padding-left: 6px;
 }
 .right-column {
 	float: right;
