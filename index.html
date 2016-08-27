@@ -13,11 +13,12 @@
 				<div class="container">
 					<a href="index.html" class="logo">техномарт</a>
 					<form action="#" method="post" class="search">
-						<label><span class="icon-search"></span> Поиск: <input type="text" name="search"></label>	
+						<span class="icon-search"></span>
+						<input type="text" placeholder="   Поиск: " name="search">
 					</form>
 					<div class="menu">
 						<a href="#"><span class="icon-bookmark"></span>Закладки</a>
-						<a href="#"><span class="icon-basket">Корзина</a>
+						<a href="#"><span class="icon-basket"></span>Корзина</a>
 						<a href="#">Оформить заказ</a>
 					</div>
 				</div>
@@ -26,7 +27,7 @@
 				<div class="container">
 					<p class="italic">Интернет-магазин строительных материалов и инструментов для ремонта</p>
 					<article>
-						<p class="header-number"><span class="icon-phone"></span>+7 (812) 555-05-55</p>
+						<p class="header-number"><span class="icon-phone"></span> +7 (812) 555-05-55</p>
 						<p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 					</article>
 					<div class="user-block">
@@ -66,24 +67,50 @@
 			<section class="promo">
 				<div class="container">
 					<div class="popular-sentence clearfix">
-						<article class="sprait technique">
+						<article class="technique">
 							<h2>Техника</h2>
 							<a href="#">для стройки</a>
 						</article>
-						<article class="sprait tools">
+						<article class="tools">
 							<h2>Инструмент</h2>
 							<a href="#">на все случаи</a>
 						</article>
-						<article class="sprait materials">
+						<article class="materials new">
 							<h2>Материалы</h2>
 							<a href="#">на любой вкус</a>
 						</article>
-						<article class="slider-image"> <h2>slider</h2></article>
+						<article class="slider-image"> 
+							<div class="slider">
+							<input type="radio" id="btn-1" name="toggle" checked>
+        					<input type="radio" id="btn-2" name="toggle">
+							<div class="slider-controls">
+								<label for="btn-1"></label>
+         						 <label for="btn-2"></label>
+							</div>
+							<div class="slides">
+								<div class="slide">
+									<div class="slide-text">
+										<div class="slide-title">перфораторы</div>
+										<p>Настоящие мужские игрушки</p>
+										<a class="btn" href="#">открыть каталог</a>
+
+									</div>
+								</div>
+								<div class="slide">
+									<div class="slide-text">
+										<div class="slide-title">дрели</div>
+										<p>Соседям на радость!</p>
+										<a class="btn" href="#">открыть каталог</a>
+
+									</div>
+								</div>
+							</div>
+						</article>
 						<article class="sale">
 							<h2>Скидки 50%</h2>
 							<a href="#">на 350 товаров</a>
 						</article>
-						<article class="sprait transport">
+						<article class="transport">
 							<h2>Доставка</h2>
 							<a href="#">бесплатно</a>
 						</article>
@@ -93,48 +120,48 @@
 						<a href="#">Все популярные товары</a> 
 					</div>
 					<div class="popular-products">
-						<article>
-							<div class="item-action">
-								<a href="#" class="btn-buy icon-basket">Купить</a>
-								<a href="#" class="btn-bookmark">В закладки</a>
+						<article class="popular-product">
+							<div class="actions">
+								<a href="#" class="buy">Купить</a>
+								<a href="#" class="bookmark">В закладки</a>
 							</div>
-							<div class="item-card image">
+							<div class="popular-products-image">
 								<img src="img/BFG9000.jpg" width="220" height="160" alt="перфоратор BOSH BFG 9000">
 							</div>
 							<p>Перфоратор BOSH BFG 9000</p>
 							<p class="price-old">32500 р</p>
 							<a href="#" class="price-new">25500 р</a>
 						</article>
-						<article>
-							<div class="item-action">
-								<a href="#" class="btn-buy icon-basket">Купить</a>
-								<a href="#" class="btn-bookmark">В закладки</a>
+						<article class="popular-product">
+							<div class="actions">
+								<a href="#" class="buy">Купить</a>
+								<a href="#" class="bookmark">В закладки</a>
 							</div>
-							<div class="item-card image">
+							<div class="popular-products-image">
 								<img src="img/BFG3000.jpg" width="220" height="160" alt="перфоратор BOSH BFG 3000">
 							</div>
 							<p>Перфоратор BOSH BFG 3000</p>
 							<p class="price-old">22500 р</p>
 							<a class="price-new" href="#">15500 р</a>
 						</article>
-						<article>
-							<div class="item-action">
-								<a href="#" class="btn-buy icon-basket">Купить</a>
-								<a href="#" class="btn-bookmark">В закладки</a>
+						<article class="popular-product">
+							<div class="actions">
+								<a href="#" class="buy">Купить</a>
+								<a href="#" class="bookmark">В закладки</a>
 							</div>
-							<div class="item-card image">
+							<div class="popular-products-image">
 								<img src="img/BFG6000.jpg" width="220" height="160" alt="перфоратор BOSH BFG 6000">
 							</div>
 							<p>Перфоратор BOSH BFG 6000</p>
 							<p class="price-old">30500 р</p>
 							<a class="price-new" href="#">25500 р</a>
 						</article>
-						<article>
-							<div class="item-action">
-								<a href="#" class="btn-buy icon-basket">Купить</a>
-								<a href="#" class="btn-bookmark">В закладки</a>
+						<article class="popular-product new">
+							<div class="actions">
+								<a href="#" class="buy">Купить</a>
+								<a href="#" class="bookmark">В закладки</a>
 							</div>
-							<div class="item-card image">
+							<div class="popular-products-image">
 								<img src="img/BFG2000.jpg" width="220" height="160" alt="перфоратор BOSH BFG 2000">
 							</div>
 							<p>Перфоратор BOSH BFG 2000</p>
@@ -163,8 +190,34 @@
 				<div class="container">
 					<h2>Сервисы</h2>
 					<p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-					<div class="slider"></div>
-				</div>
+					 
+							<!-- <div class="-service-slider">
+							<input type="radio" id="btn-1" name="toggle" checked>
+        					<input type="radio" id="btn-2" name="toggle">
+							<div class="slider-controls">
+								<label for="btn-1"></label>
+         						 <label for="btn-2"></label>
+							</div>
+							<div class="slides">
+								<div class="slide">
+									<div class="slide-text">
+										<div class="slide-title">перфораторы</div>
+										<p>Настоящие мужские игрушки</p>
+										<a class="btn" href="#">открыть каталог</a>
+
+									</div>
+								</div>
+								<div class="slide">
+									<div class="slide-text">
+										<div class="slide-title">дрели</div>
+										<p>Соседям на радость!</p>
+										<a class="btn" href="#">открыть каталог</a>
+
+									</div>
+								</div>
+							</div>
+						
+				</div> -->
 			</section>
 			<section class="contacts">
 				<div class="container">
