@@ -110,57 +110,54 @@ body {
 .search {
 	float: left;
 	width: 250px;
+	position: relative;
 
 }
-
-.search input {
-	height: 43px;
-	padding: 0;
-	border: 0;
-	width: 211px;
-	background: #293449;
-	color: #ffffff;
-	position: relative;
-	outline: 0;
+.search:hover {
+	background: #212a3a;
 }
 .search button {
-    background: #293449;
+    width: 42px;
+    height: 42px;
     border: 0;
-    padding-bottom: 14px;
-    padding-top: 14px;
-    padding-right: 13px;
-    margin-right: -4px;
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgba(255,255,255,.3);
+    font-size: 17px;
 }
-.header form:hover input {
-	background: #212a3a;
+.search button:before {
+  content: "🔍";
 }
-.header form:hover button {
-	background: #212a3a;
+.search:hover button {
 	color: #ffffff;
 }
-.search input:focus {
-	background: #ffffff;
-	color: #000000;
-}
-.header input:focus button {
-	background: #ffffff;
+.search:focus button {
 	color: #ee3643;
 }
-.search input::-webkit-input-placeholder  { 
-	color: #ffffff; 
+.search input[type="search"] {
+    margin: 0;
+    border: 0;
+    width: 220px;
+    background-color: rgba(255,255,255,0);
+    line-height: 18px;
+    font-family: "Cuprum","Arial",sans-serif;
+    font-size: 17px;
+    padding: 12px 0 12px 50px;
+    color: #fff;
+    box-sizing: content-box;
 }
-.search input::-moz-placeholder { 
-	color: #ffffff; 
+.search input[type="search"]:focus {
+    background-color: #fff;
+    color: #000;
+    outline: none;
 }
-.search span {
-	color: #6a7180;
-
-    box-sizing: border-box;
-    margin-right: -4px;
-    padding-left: 10px;
-    display: inline-block;
-    padding-top: 9px;
-    padding-bottom: 9px;
+input[type="search"]::-webkit-input-placeholder {
+  color: #ffffff; 
+}
+input[type="search"]::-moz-input-placeholder {
+  color: #ffffff; 
 }
 .menu {
 	float: right;
@@ -169,6 +166,7 @@ body {
 }
 .menu span {
 	color: #6a7180;
+	padding-right: 10px;
 }
 .menu a {
 	display: inline-block;
@@ -177,12 +175,12 @@ body {
 	color: white;
 	font-family: "Cuprum";
 	font-size: 17px;
-	padding-left: 43px;
 	padding-top: 10px;
 	box-sizing: border-box;
 	width: 150px;
 	height: 43px;
 	margin-left: -3px;
+	text-align: center;
 }
 .menu a:hover {
 	background-color: #212a3a;
@@ -254,7 +252,7 @@ body {
 	margin-top: 8px;
 
 }
-.italic {
+.about {
 	padding-top: 33px;
 	padding-right: 50px;
 	padding-left: 50px;
@@ -384,7 +382,7 @@ body {
 .personal-cabinet:hover button span {
 	color: #32425c;
 }
-.personal-cabinet:hover a {
+.personal-cabinet-action:hover a {
 	color: #ee3643;
 }
 .personal-cabinet:active span {
@@ -396,7 +394,7 @@ body {
 .personal-cabinet:active button {
 	color: #c5c5c5;
 }
-.personal-cabinet:active a {
+.personal-cabinet-action:active a {
 	color: #c5c5c5;
 }
 .clearfix::after {
@@ -1193,6 +1191,17 @@ body {
 	height: 760px;
 	display: block;
 	float: left;
+	position: relative;
+}
+.filter::before {
+	    content: "";
+    position: absolute;
+    height: 1px;
+    width: 10px;
+    background: black;
+    top: 203px;
+    display: block;
+    left: 100px;
 }
 .filter h2, .filter-firms h2, .nutrition h2 {
 	font-family: "PT Sans";
@@ -1712,7 +1721,7 @@ body {
    	 margin-left: 10px;
 }
 .max-price input {
-	margin-right: 10px;
+	margin-right: -10px;
 	
 }
 
