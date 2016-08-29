@@ -13,7 +13,7 @@
 				<div class="container">
 					<a href="index.html" class="logo">техномарт</a>
 					<form action="#" method="post" class="search">
-						<span class="icon-search"></span>
+						<button type="search"  class="icon-search"></button>
 						<input type="text" placeholder="   Поиск: " name="search">
 					</form>
 					<div class="menu">
@@ -79,25 +79,23 @@
 				<h1 class="header-h1">Перфораторы</h1>
 				<form action="#" method="get" class="filter">
 					<p>Фильтр:</p>
-					<div class="filter-price">
-						<h2>Цена:</h2>
-						<div class="filter-range">
+					<h2>Цена:</h2>
+					
+						<div class="range-filter">
 							<div class="range-controls">
 								<div class="scale">
-									<div class="bar"></div>
+									<div class="bar"> <div class="bar" style="margin-left: 0%; width: 30%"></div></div>
 								</div>
-								<div class="range-toggle range-toggle-min"></div>
-								<div class="range-toggle range-toggle-max"></div>
+								<div class="toggle toggle-min"></div>
+								<div class="toggle toggle-max"></div>
 							</div>
-							
 							<div class="price-controls">
-								<label class="min-price">от <input type="text" name="min-price" value="0"></label>
-								<label class="max-price"><input type="text" name="max-price" value="30000"></label>
+								<label class="min-price"> <input type="text" name="min-price" value="0"></label>
+								<label class="max-price"> <input type="text" name="max-price" value="30000"></label>
 							</div>
-							
-							<button class="btn-transparent" type="submit">Показать</button>
 						</div>
-					</div>
+						
+					
 					<div class="filter-firms">
 						<h2>Производители:</h2>
 						<input type="checkbox" name="bosh" id="bosh" checked>
@@ -127,8 +125,8 @@
 						<a href="#">по цене</a>
 						<a href="#">по типу</a>
 						<a href="#">по функционалу</a>	
-						<button class="up">up</button>
-						<button class="down">down</button>
+						<a class="up"></a>
+						<a class="down"></a>
 					</div>
 					<div class="clearfix"></div>
 					<div class="catalog">
