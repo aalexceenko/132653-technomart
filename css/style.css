@@ -15,7 +15,7 @@ body {
 }
 
 input[type="checkbox"] + label::before, 
-input[type="radio"] + label::before, button[type="search"], span, .slider-image:before, .slide:after {
+input[type="radio"] + label::before, button[type="search"], span, .slider-image:before, .slide:after, .slider-controls-arrow label::before{
 	display: inline-block;
 	width: 1em;
 	margin-right: 0.2em;
@@ -126,6 +126,7 @@ body {
     left: 0;
     color: rgba(255,255,255,.3);
     font-size: 17px;
+    cursor: pointer;
 }
 .search button:before {
   content: "🔍";
@@ -133,7 +134,7 @@ body {
 .search:hover button {
 	color: #ffffff;
 }
-.search:focus button {
+.search input[type="search"]:focus + button[type="submit"] {
 	color: #ee3643;
 }
 .search input[type="search"] {
@@ -144,7 +145,7 @@ body {
     line-height: 18px;
     font-family: "Cuprum","Arial",sans-serif;
     font-size: 17px;
-    padding: 12px 0 12px 50px;
+    padding: 12px 0 13px 50px;
     color: #fff;
     box-sizing: content-box;
 }
@@ -261,7 +262,7 @@ input[type="search"]::-moz-input-placeholder {
 	font-size: 16px;
 	font-style: italic;
 	line-height: 23px;
-	color: #ef828b;
+	color: #ee3643;
 }
 .user-block a {
 	text-decoration: none;
@@ -558,28 +559,44 @@ input[type="search"]::-moz-input-placeholder {
 	position: relative;
 
 }
-.slider-image:before {
+.slider-controls-arrow {
     position: absolute;
-    content: "\3c";
-    color: white;
-    height: 39px;
-    width: 22px;
-    top: 114px;
-    z-index: 1;
-    left: 24px;
+    width: 620px;
+    height: 25px;
+    background: red;
+    left: 0;
+    right: 0;
+    top: 129px;
+    font-size: 50px;
+	
+}
+.slider-controls-arrow label {
+    position: absolute;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 50px;
+}
+.arrow-left::before {
+	position: absolute;
+	content: "\3c";
+	
 
 }
-.slide:after {
-    position: absolute;
-    content: "\3e";
-    color: white;
-    height: 39px;
-    width: 22px;
-    top: 114px;
-    z-index: 1;
-    left: 575px;
+.arrow-right::before {
+	position: absolute;
+	content: "\3e";
+	    color: yellow;
+	
 
 }
+.arrow-left {
+	left: 0;
+}
+.arrow-right {
+	right: 0;
+    z-index: 10;
+}
+
 .popular-sentence article:nth-child(3n) {
 	margin-left: 0px;
 }
@@ -605,9 +622,9 @@ input[type="search"]::-moz-input-placeholder {
 	text-transform: uppercase;
 	color: #293449;
 	width: 362px;
-	height: 35px;
+	height: 30px;
 	margin-left: 25px;
-	margin-top: 25px;
+	margin-top: 30px;
 }
 .products a, .firms a {
 	float: right;
@@ -849,9 +866,9 @@ input[type="search"]::-moz-input-placeholder {
 .firms p {
 	float: left;
 	width: 370px;
-	height: 35px;
+	height: 30px;
 	margin-left: 25px;
-	margin-top: 25px;
+	margin-top: 30px;
 	font-family: "Cuprum";
 	font-size: 30px;
 	line-height: 30px;
