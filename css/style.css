@@ -1780,3 +1780,251 @@ input[type="search"]::-moz-input-placeholder {
 .range-controls .toggle-max {
   left: 160px;
 }
+.write-us {
+	width: 620px;
+	height: 430px;
+	color: #000000;
+	background-color: #ffffff;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 55px;
+	position: absolute;
+	top: 2465px;
+	left: 547px;
+	box-shadow: 0 20px 40px rgba(0,1,1, 0.75);
+	margin-left: -300px;
+	z-index: 10;
+	box-sizing: border-box;
+}
+.write-us::before {
+	position: absolute;
+	width: 620px;
+	height: 8px;
+	background-color: #ee3643;
+	content: "";
+	top: 0;
+	left: 0;
+
+}
+.write-us::after {
+	position: absolute;
+	width: 620px;
+	height: 112px;
+	background-color: #f1f1f1;
+	content: "";
+	top: 319px;
+	left: 0;
+	z-index: -1;
+}
+.write-us-close {
+	width: 35px;
+	height: 26px;
+	font-size: 0;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	position: absolute;
+	top: 15px;
+	right: 5px;
+}
+.write-us-close::before,
+.write-us-close::after {
+	content: "";
+	position: absolute;
+	width: 19px;
+	height: 3px;
+	border-radius: 1px;
+	background-color: #ee3643;
+	top: 10px;
+	left: 2px;
+
+}
+.write-us-close::before {
+	transform: rotate(45deg);
+}
+.write-us-close::after {
+	transform: rotate(-45deg);
+}
+.write-us input[name="name"], .write-us input[name="mail"] {
+	width: 220px;
+	height: 36px;
+	border-radius: 1px;
+	border: 2px solid #d7dcde;
+	outline: 0;
+	margin-bottom: 17px;
+	margin-top: 14px;
+	box-sizing: border-box;
+}
+.write-us label {
+	font-family: "Cuprum";
+	font-size: 18px;
+	line-height: 18px;
+	color: #000000;
+}
+.write-us form button {
+	width: 100%;
+	color: #ffffff;
+	background-color: #ee3643;
+	text-transform: uppercase;
+	height: 40px;
+	border-radius: 1px;
+	border: 0;
+	outline: 0;
+	font-family: "Cuprum";
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+}
+.write-us label:first-of-type{
+	float: left;
+}
+.write-us label:nth-of-type(2) {
+	float: right;
+}
+.write-us input[name="discrabe"]  {
+	width: 100%;
+	height: 115px;
+	border-radius: 1px;
+	border: 2px solid #d7dcde;
+	outline: 0;
+	margin-bottom: 74px;
+	margin-top: 14px;
+	box-sizing: border-box;
+
+}
+.write-us input[name="discrabe"]::-webkit-input-placeholder,
+.write-us input[name="name"]::-webkit-input-placeholder,
+.write-us input[name="mail"]::-webkit-input-placeholder {
+	font-family: "PT Sans";
+	font-size: 13px;
+	line-height: 18px;
+	color: #999999;
+	padding-top: 10px;
+}
+.basket {
+	width: 620px;
+	height: 280px;
+	color: #000000;
+	background-color: #ffffff;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 55px;
+	position: absolute;
+	top: 465px;
+	left: 547px;
+	box-shadow: 0 20px 40px rgba(0,1,1, 0.75);
+	margin-left: -300px;
+	z-index: 10;
+	box-sizing: border-box;
+}
+.basket::before {
+	position: absolute;
+	width: 620px;
+	height: 8px;
+	background-color: #ee3643;
+	content: "";
+	top: 0;
+	left: 0;
+
+}
+.basket::after {
+	position: absolute;
+	width: 620px;
+	height: 112px;
+	background-color: #f1f1f1;
+	content: "";
+	top: 179px;
+	left: 0;
+	z-index: -1;
+}
+.basket h2 {
+	font-family: "Cuprum";
+	font-size: 30px;
+	line-height: 18px;
+	color: #000000;
+	padding-left: 100px;
+	position: relative;
+}
+.basket h2::before {
+	position: absolute;
+	content: "";
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	background-color: #63a63e;
+	left: 0;
+	top: -25px;
+}
+.basket h2::after {
+	position: absolute;
+	content: "";
+	width: 5px;
+	height: 27px;
+	background-color: #ffffff;
+	left: 37px;
+	top: -4px;
+	transform: rotate(45deg);
+}
+.basket-shop::before {
+	position: absolute;
+	content: "";
+	width: 5px;
+	height: 14px;
+	background-color: #ffffff;
+	left: 103px;
+	top: 84px;
+	transform: rotate(-45deg);
+}
+.basket-close {
+	width: 35px;
+	height: 26px;
+	font-size: 0;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	position: absolute;
+	top: 15px;
+	right: 5px;
+}
+.basket-close::before,
+.basket-close::after {
+	content: "";
+	position: absolute;
+	width: 19px;
+	height: 3px;
+	border-radius: 1px;
+	background-color: #ee3643;
+	top: 10px;
+	left: 2px;
+
+}
+.basket-close::before {
+	transform: rotate(45deg);
+}
+.basket-close::after {
+	transform: rotate(-45deg);
+}
+.basket-shop button {
+	width: 220px;
+	height: 40px;
+	text-transform: uppercase;
+	height: 40px;
+	border-radius: 1px;
+	border: 0;
+	outline: 0;
+	font-family: "Cuprum";
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	margin-top: 95px;
+}
+.basket button:first-of-type{
+	float: left;
+	color: #ffffff;
+	background-color: #ee3643;
+}
+.basket button:nth-of-type(2) {
+	float: right;
+	color: #000000;
+	background-color: #ffffff;
+}
