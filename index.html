@@ -4,7 +4,8 @@
 		<meta charset="utf-8">
 		<link href="css/style.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&subset=cyrillic" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
 		<title>Техномарт</title>
 	</head>
 	<body>
@@ -81,29 +82,30 @@
 						</article>
 						<article class="slider-image"> 
 							<div class="slider">
-							<input type="radio" id="btn-1" name="toggle" checked>
-							<input type="radio" id="btn-2" name="toggle">
-							<div class="slider-controls">
-								<label for="btn-1"></label>
-								<label for="btn-2"></label>
-							</div>
-							<div class="slider-controls-arrow">
-								<label for="btn-1" class="arrow-left"></label>
-								<label for="btn-2" class="arrow-right"></label>
-							</div>
-							<div class="slides">
-								<div class="slide">
-									<div class="slide-text">
-										<div class="slide-title">перфораторы</div>
-										<p>Настоящие мужские игрушки</p>
-										<a class="btn" href="#">открыть каталог</a>
-									</div>
+								<input type="radio" id="btn-1" name="toggle" checked>
+								<input type="radio" id="btn-2" name="toggle">
+								<div class="slider-controls">
+									<label for="btn-1"></label>
+									<label for="btn-2"></label>
 								</div>
-								<div class="slide">
-									<div class="slide-text">
-										<div class="slide-title">дрели</div>
-										<p>Соседям на радость!</p>
-										<a class="btn" href="#">открыть каталог</a>
+								<div class="slider-controls-arrow">
+									<label for="btn-1" class="arrow-left"></label>
+									<label for="btn-2" class="arrow-right"></label>
+								</div>
+								<div class="slides">
+									<div class="slide">
+										<div class="slide-text">
+											<div class="slide-title">перфораторы</div>
+											<p>Настоящие мужские игрушки</p>
+											<a class="btn" href="#">открыть каталог</a>
+										</div>
+									</div>
+									<div class="slide">
+										<div class="slide-text">
+											<div class="slide-title">дрели</div>
+											<p>Соседям на радость!</p>
+											<a class="btn" href="#">открыть каталог</a>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -185,7 +187,7 @@
 						<a href="#"><img src="img/AEG.jpg" width="151" height="96" alt="aeg"></a>
 						<a href="#"><img src="img/Metabo.jpg" width="204" height="69" alt="metabo"></a>
 					</div>
-					<div class="clearfix">
+					<div class="clearfix"></div>
 				</div>
 			</section>
 			<section class="service">
@@ -197,9 +199,9 @@
 					<input id="guarantee" name="slider-services" value="guarantee" type="radio">
 					<input id="credit" name="slider-services" value="credit" type="radio">      
 					<ul class="tabs-nav">
-						<label for="delivery">Доставка</label>
-						<label for="guarantee">Гарантия</label>
-						<label for="credit">Кредит</label>
+						<li><label for="delivery">Доставка</label></li>
+						<li><label for="guarantee">Гарантия</label></li>
+						<li><label for="credit">Кредит</label></li>
 					</ul>
 					<div class="tabs-body">
 						<div class="tab-body tab-body-delivery active">
@@ -247,7 +249,7 @@
 						<h2>Контакты</h2>
 						<p>Вы можете забрать товар сами, заехав в наш офис:</p>
 						<a href="#"><img src="img/map.jpg" alt="map"></a>
-						<form>Заблудились? напишите нам!</form>
+						<form class="connection-form">Заблудились? напишите нам!</form>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -312,5 +314,29 @@
 				<button>Отправить</button>
 			</form>
 		</div>
+		<script type="text/javascript">
+			var link = document.querySelector(".connection-form");
+			var popup = document.querySelector(".write-us");
+			var close = popup.querySelector(".write-us-close");
+			var login = popup.querySelector("[name=name]");
+			var form = popup.querySelector("form");
+			var mail = popup.querySelector("[name=mail]");
+			var sms = popup.querySelector("[name=discrabe]");
+			link.addEventListener("click", function(event) {
+				event.preventDefault();
+				popup.classList.add("write-us-show");
+				login.focus();
+			});
+			close.addEventListener("click", function(event) {
+				event.preventDefault();
+				popup.classList.remove("write-us-show");
+				
+			});
+			form.addEventListener("submit", function(event) {
+				if (!login.value || !mail.value || !sms.value) {
+					event.preventDefault();
+				}
+			});
+		</script>
 	</body>
 </html>

@@ -4,7 +4,8 @@
 		<meta charset="utf-8">
 		<link href="css/style.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&subset=cyrillic" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
 		<title>Каталог</title>
 	</head>
 	<body>
@@ -33,7 +34,7 @@
 					<div class="personal-cabinet">
 						<div class="personal-cabinet-name">
 							<button><span class="icon-user"></span>Равшан Джамшутович</button>
-							<a href="#"><span class="icon-logout"></span> <button>exit</button></a>
+							<a href="#"><span class="icon-logout"></span></a>
 						</div>
 						<div class="personal-cabinet-action">
 							<a href="#">Мои заказы</a>
@@ -309,5 +310,18 @@
 				<button>Продолжить покупки</button>
 			</form>
 		</div>
+		<script type="text/javascript">
+			var link = document.querySelector(".buy");
+			var popup = document.querySelector(".basket");
+			var close = popup.querySelector(".basket-close");
+			link.addEventListener("click", function(event) {
+				event.preventDefault();
+				popup.classList.add("basket-show");
+			});
+			close.addEventListener("click", function(event) {
+				event.preventDefault();
+				popup.classList.remove("basket-show");
+			});
+		</script>
 	</body>
 </html>
