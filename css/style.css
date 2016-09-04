@@ -3,7 +3,7 @@ body {
 	line-height: 24px;
 	color: #000000;
 	font-weight: normal;
-	font-family: "PT Sans", "Cuprum" sans-serif;
+	font-family: "PT Sans", "Cuprum", 'Arial', sans-serif;
 	min-width: 1122px;
 	min-height: 1750px;
 	margin: 0;
@@ -67,12 +67,12 @@ button[type="search"], span, .slider-image:before, .slide:after,
 .h1 {
 	font-size: 30px;
 	line-height: 30px;
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum",'Arial',  sans-serif;
 }
 .h2 {
 	font-size: 14px;
 	line-height: 20px;
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", 'Arial', sans-serif;
 }
 .header {
 	min-height: 43px;
@@ -90,7 +90,7 @@ button[type="search"], span, .slider-image:before, .slide:after,
 	height: 43px;
 	text-align: center;
 	text-decoration: none;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 24px;
 	line-height: 24px;
 	text-transform: uppercase;
@@ -177,7 +177,7 @@ input[type="search"]::-moz-input-placeholder {
 	vertical-align: top;
 	text-decoration: none;
 	color: white;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 17px;
 	padding-top: 10px;
 	box-sizing: border-box;
@@ -234,7 +234,7 @@ input[type="search"]::-moz-input-placeholder {
 	width: 270px;
 	position: relative;
 	border: 2px solid white;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 21px;
 	line-height: 18px;
 	color: #e9292a;
@@ -254,7 +254,7 @@ input[type="search"]::-moz-input-placeholder {
 .header-continue .header-adress {
 	width: 270px;
 	height: 30px;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	color: #32425c;
@@ -265,7 +265,7 @@ input[type="search"]::-moz-input-placeholder {
 	padding-right: 50px;
 	padding-left: 50px;
 	box-sizing: border-box;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 16px;
 	font-style: italic;
 	line-height: 23px;
@@ -273,7 +273,7 @@ input[type="search"]::-moz-input-placeholder {
 }
 .user-block a {
 	text-decoration: none;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 21px;
 	line-height: 18px;
 	color: #000000;
@@ -282,7 +282,7 @@ input[type="search"]::-moz-input-placeholder {
 	margin-top: 16px;
 	width: 300px;
 	height: 110px;
-	float: left;
+	float: right;
 }
 .user-block .login {
 	width: 120px;
@@ -336,7 +336,7 @@ input[type="search"]::-moz-input-placeholder {
 	width: 240px;
 	height: 45px;
 	background-color: #ffffff;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 21px;
 	line-height: 18px;
 	cursor: pointer;
@@ -362,7 +362,7 @@ input[type="search"]::-moz-input-placeholder {
 	color: #c5c5c5;
 }
 .personal-cabinet-action {
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 16px;
 	line-height: 18px;
 	color: #32425c;
@@ -384,7 +384,7 @@ input[type="search"]::-moz-input-placeholder {
 	left: 104px;
 }
 .personal-cabinet-name span:hover:first-child,
-.personal-cabinet-name button span:hover:last-child {
+.personal-cabinet-name button:hover span {
 	color: #32425c;
 }
 .personal-cabinet-action a:hover:first-child, 
@@ -392,7 +392,8 @@ input[type="search"]::-moz-input-placeholder {
 	color: #ee3643;
 }
 .personal-cabinet-name span:active:first-child,
-.personal-cabinet-name button span:active:last-child  {
+.personal-cabinet-name button:active span,
+.personal-cabinet-name button:active {
 	color: #c5c5c5;
 }
 .personal-cabinet-action a:active:first-child, 
@@ -423,7 +424,7 @@ input[type="search"]::-moz-input-placeholder {
 	display: inline-block;
 	margin-right: 10px;
 	vertical-align: top;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 17px;
 	margin-left: -9px;
 }
@@ -530,7 +531,7 @@ input[type="search"]::-moz-input-placeholder {
 	background-position: -57px -4px;
 }
 .popular-sentence h2 {
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-weight: bold;
 	font-size: 24px;
 	line-height: 30px;
@@ -546,7 +547,7 @@ input[type="search"]::-moz-input-placeholder {
 	width: 135px;
 	height: 40px;
 	margin-left: 25px;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -629,7 +630,7 @@ input[type="search"]::-moz-input-placeholder {
 }
 .products p {
 	float: left;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -644,11 +645,11 @@ input[type="search"]::-moz-input-placeholder {
 	width: 250px;
 	height: 38px;
 	margin-right: 25px;
-	margin-top: 28px;
+	margin-top: 26px;
 	text-decoration: none;
 	background-color: #ee3643;
 	color: #ffffff;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -802,7 +803,7 @@ input[type="search"]::-moz-input-placeholder {
 	padding-left: 10px;
 	padding-top: 11px;
 	font-size: 17px;
-	font-family: "PT Sans";
+	font-family: "PT Sans", 'Arial', sans-serif;
 	font-weight: bold;
 	line-height: 18px;
 	color: #ffffff;
@@ -819,7 +820,7 @@ input[type="search"]::-moz-input-placeholder {
 	padding-left: 10px;
 	padding-top: 11px;
 	font-size: 17px;
-	font-family: "PT Sans";
+	font-family: "PT Sans", 'Arial', sans-serif;
 	font-weight: bold;
 	line-height: 18px;
 	color: #ffffff;
@@ -882,7 +883,7 @@ input[type="search"]::-moz-input-placeholder {
 	height: 30px;
 	margin-left: 25px;
 	margin-top: 30px;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -934,7 +935,7 @@ input[type="search"]::-moz-input-placeholder {
 }
 .company h2, .connection h2 {
 	text-transform: uppercase;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 30px;
 	line-height: 30px;
 	color: #000000;
@@ -945,7 +946,7 @@ input[type="search"]::-moz-input-placeholder {
 	margin-bottom: 0;
 }
 .company p, .connection p {
-	font-family: "PT Sans";
+	font-family: "PT Sans", 'Arial', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	color: #000000;
@@ -953,7 +954,7 @@ input[type="search"]::-moz-input-placeholder {
 }
 .company ul {
 	list-style: none;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 16px;
 	line-height: 18px;
 }
@@ -978,7 +979,7 @@ input[type="search"]::-moz-input-placeholder {
 	text-decoration: none;
 	background-color: #ee3643;
 	color: #ffffff;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -987,20 +988,21 @@ input[type="search"]::-moz-input-placeholder {
 	padding-top: 12px;
 	border-radius: 3px;
 }
-.connection form {
+.connection-form {
 	width: 300px;
 	height: 40px;
 	display: block;
 	text-decoration: none;
 	background-color: #ee3643;
 	color: #ffffff;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
 	box-sizing: border-box;
 	text-align: center;
 	padding-top: 12px;
+	cursor: pointer;
 	border-radius: 3px;
 }
 .connection {
@@ -1027,7 +1029,7 @@ input[type="search"]::-moz-input-placeholder {
 	background: #ee3643;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 30px;
 	line-height: 30px;
 	color: #ffffff;
@@ -1041,7 +1043,7 @@ input[type="search"]::-moz-input-placeholder {
 	width: 370px;
 	height: 70px;
 	float: left;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	margin-bottom: 0;
@@ -1063,7 +1065,7 @@ input[type="search"]::-moz-input-placeholder {
 	vertical-align: top;
 	text-decoration: none;
 	color: #ffffff;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	padding-left: 50px;
@@ -1085,7 +1087,7 @@ input[type="search"]::-moz-input-placeholder {
 	vertical-align: top;
 	text-decoration: none;
 	color: #ffd180;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	padding-right: 50px;
@@ -1095,7 +1097,7 @@ input[type="search"]::-moz-input-placeholder {
 .footer-page-2 a:hover, .footer-page-1 a:hover {
 	text-decoration: underline;
 }
-.footer-page-2 a:action, .footer-page-1 a:action {
+.footer-page-2 a:active, .footer-page-1 a:active {
 	text-decoration: none;
 	opacity: 0.1;
 }
@@ -1116,7 +1118,7 @@ input[type="search"]::-moz-input-placeholder {
 	width: 250px;
 	height: 60px;
 	margin-right: 20px;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	margin-bottom: 0;
@@ -1171,7 +1173,7 @@ input[type="search"]::-moz-input-placeholder {
 	padding: 0;
 	margin-top: 0;
 	margin-bottom: 0;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 16px;
 	line-height: 18px;
 }
@@ -1191,7 +1193,7 @@ input[type="search"]::-moz-input-placeholder {
 	margin-bottom: 20px;
 }
 .breadcrumbs a {
-	font-family: "PT Sans";
+	font-family: "PT Sans", 'Arial', sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	color: #000000;
@@ -1207,7 +1209,7 @@ input[type="search"]::-moz-input-placeholder {
 	height: 90px;
 	background: #f2f6f8;
 	margin-bottom: 20px;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 30px;
 	line-height: 30px;
 	color: #293449;
@@ -1234,7 +1236,7 @@ input[type="search"]::-moz-input-placeholder {
 	left: 105px;
 }
 .filter h2, .filter-firms h2, .nutrition h2 {
-	font-family: "PT Sans";
+	font-family: "PT Sans", 'Arial', sans-serif;
 	font-weight: bold;
 	font-size: 17px;
 	line-height: 30px;
@@ -1258,7 +1260,7 @@ input[type="search"]::-moz-input-placeholder {
 	margin-top: 0px;
 	margin-bottom: 12px;
 	color: #000000;
-	font-family: "PT Sans";
+	font-family: "PT Sans", 'Arial', sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	box-sizing: border-box;
@@ -1284,7 +1286,7 @@ input[type="search"]::-moz-input-placeholder {
 	margin-bottom: 21px;
 	display: inline-block;
 	vertical-align: top;
-	font-family: "PT Sans";
+	font-family: "PT Sans", 'Arial', sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	color: #000000;
@@ -1335,7 +1337,7 @@ input[type="search"]::-moz-input-placeholder {
 	margin-bottom: 19px;
 	display: inline-block;
 	vertical-align: top;
-	font-family: "PT Sans";
+	font-family: "PT Sans", 'Arial', sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	color: #000000;
@@ -1349,7 +1351,7 @@ input[type="search"]::-moz-input-placeholder {
 	margin-top: 56px;
 	width: 140px;
 	height: 40px;
-	font-family: "PT Sans";
+	font-family: "PT Sans", 'Arial', sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	color: #000000;
@@ -1383,16 +1385,18 @@ input[type="search"]::-moz-input-placeholder {
 	content: "\25b2";
 	position: absolute;
 	left: 640px;
-	top: 7px;
+	top: 10px;
 	color: #ee3643;
+	cursor: pointer;
 }
 .sorting .down:after {
 	display: block;
 	content: "\25bc";
 	position: absolute;
 	left: 672px;
-	top: 6px;
+	top: 9px;
 	color: #c6c2bd;
+	cursor: pointer;
 }
 .sorting p {
 	height: 38px;
@@ -1401,7 +1405,7 @@ input[type="search"]::-moz-input-placeholder {
 	float: left;
 	margin-right: 0px;
 	color: #000000;
-	font-family: "PT Sans";
+	font-family: "PT Sans", 'Arial', sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	box-sizing: border-box;
@@ -1413,7 +1417,7 @@ input[type="search"]::-moz-input-placeholder {
 	display: inline-block;
 	vertical-align: top;
 	color: #acaaa5;
-	font-family: "PT Sans";
+	font-family: "PT Sans", 'Arial', sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	box-sizing: border-box;
@@ -1456,7 +1460,7 @@ input[type="search"]::-moz-input-placeholder {
 	text-align: center;
 	text-decoration: none;
 	color: #000000;
-	font-family: "PT Sans";
+	font-family: "PT Sans", 'Arial', sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	padding-top: 10px;
@@ -1485,7 +1489,7 @@ input[type="search"]::-moz-input-placeholder {
 .info h2 {
 	margin-top: 0px;
 	margin-bottom: 0;
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -1497,7 +1501,7 @@ input[type="search"]::-moz-input-placeholder {
 .info p {
 	margin-top: 0;
 	margin-bottom: 0;
-	font-family: "PT Sans";
+	font-family: "PT Sans", 'Arial', sans-serif;
 	font-size: 14;
 	line-height: 24px;
 }
@@ -1547,7 +1551,7 @@ input[type="search"]::-moz-input-placeholder {
 	display: none;
 }
 .slide-title {
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 30px;
@@ -1557,7 +1561,7 @@ input[type="search"]::-moz-input-placeholder {
 	margin-bottom: 7px;
 }
 .slide-text p {
-	font-family: "Cuprum";
+	font-family: "Cuprum", 'Arial', sans-serif;
 	font-size: 18px;
 	line-height: 24x;
 	color: #ffffff;
@@ -1805,7 +1809,7 @@ input[type="search"]::-moz-input-placeholder {
 	background-color: #ffffff;
 	padding-left: 80px;
 	padding-right: 80px;
-	padding-top: 55px;
+	padding-top: 50px;
 	position: fixed;
 	display: none;
 	/*top: 2465px;
@@ -1877,9 +1881,10 @@ input[type="search"]::-moz-input-placeholder {
 	border-radius: 3px;
 	border: 2px solid #d7dcde;
 	outline: 0;
-	margin-bottom: 17px;
+	margin-bottom: 15px;
 	margin-top: 14px;
 	box-sizing: border-box;
+	font-size: 13px;
 }
 .write-us label {
 	font-family: "Cuprum";
@@ -1914,9 +1919,11 @@ input[type="search"]::-moz-input-placeholder {
 	border: 2px solid #d7dcde;
 	outline: 0;
 	margin-bottom: 74px;
-	margin-top: 14px;
+	margin-top: 11px;
 	box-sizing: border-box;
 	resize: none;
+	font-size: 13px;
+}
 
 }
 .write-us input[name="discrabe"]::-webkit-input-placeholder,
