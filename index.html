@@ -9,6 +9,7 @@
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
 		<title>Техномарт</title>
 	</head>
+	<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
 	<body>
 		<header class="main-header">
 			<div class="header">
@@ -27,11 +28,15 @@
 			</div>
 			<div class="header-continue">
 				<div class="container">
-					<p class="about">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+					
+						<p class="about">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+					
+					
 					<article>
 						<p class="header-number"><span class="icon-phone"></span> +7 (812) 555-05-55</p>
 						<p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 					</article>
+					
 					<div class="user-block">
 						<a class="login" href="#"><span class="icon-login"></span>Войти</a>
 						<a class="registration" href="#">Регистрация</a>
@@ -315,7 +320,7 @@
 				<button>Отправить</button>
 			</form>
 		</div>
-		<div class="map">
+		<div class="map" id="map">
 			<button class="map-close" type="button"></button>
 			<img src="img/map1.jpg" width="940" height="446">
 		</div>
@@ -354,7 +359,21 @@
 				popupmap.classList.remove("map-show");
 				
 			});
+// 			function initMap() { 
+// var mapDiv = document.getElementById('map'); 
+// var myLatLng = {lat: 59.9388049, lng: 30.3222035}; 
+// var map = new google.maps.Map(mapDiv, { 
+// center: myLatLng, 
+// zoom: 15 
+// }); 
+// var image = "img/icon-marker.png"; 
+// var marker = new google.maps.Marker({ 
+// position: myLatLng, 
+// map: map, 
+// icon: image 
+// }); 
+// }
 		</script>
-		<!-- <script  src="js/scripts.js"></script> -->
+	<!-- 	<script  src="js/scripts"></script> -->
 	</body>
 </html>

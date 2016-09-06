@@ -218,12 +218,14 @@ input[type="search"]::-moz-input-placeholder {
 .header-continue {
 	height: 280px;
 	background: #f1f5f7;
+	display: block;
 }
 .header-continue p {
 	width: 300px;
 	height: 128px;
 	float: left;
 	margin-right: 20px;
+	display: block;
 }
 .header-continue article {
 	width: 300px;
@@ -284,6 +286,7 @@ input[type="search"]::-moz-input-placeholder {
 	width: 300px;
 	height: 110px;
 	float: right;
+	display: block;
 }
 .user-block .login {
 	width: 120px;
@@ -573,12 +576,12 @@ input[type="search"]::-moz-input-placeholder {
 .popular-sentence .slider-image a:hover, 
 .products a:hover, .firms a:hover,
  .company a:hover, .connection form:hover,
- .feedback button:hover, .basket-shop button:hover {
+ .feedback button:hover, .basket-shop button:hover, .tab-body-credit a:hover {
 	background-color: #ca2c37;
 }
 .popular-sentence .slider-image a:active, .products a:active, 
 .firms a:active, .company a:active, 
-.connection form:active,  .feedback button:active{
+.connection form:active,  .feedback button:active, .tab-body-credit a:active{
 	background-color: #ba2732;
 }
 .slider-image {
@@ -1298,9 +1301,9 @@ input[type="search"]::-moz-input-placeholder {
 .filter-firms label:hover::before,.nutrition label:hover::before {
 	color: #b5b5b5;
 }
-.filter-firms label:disabled::before,.nutrition label:disabled::before {
+/*.filter-firms label:disabled::before,.nutrition label:disabled::before {
 	color: red;
-}
+}*/
 .filter-firms label:before {
 	content: "\2610";
 	font-size: 28px;
@@ -2090,7 +2093,7 @@ input[type="search"]::-moz-input-placeholder {
 	width: 940px;
 	height: 446px;
 	position: fixed;
-	box-shadow: 0 20px 40px rgba(0,1,1, 0.75);
+	box-shadow: 0 0px 16px rgba(35,31,32, 0.5);
 	z-index: 10;
 	box-sizing: border-box;
 	top: 50%; 
