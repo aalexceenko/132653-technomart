@@ -80,8 +80,7 @@
 				<h1 class="header-h1">Перфораторы</h1>
 				<form action="#" method="get" class="filter">
 					<p>Фильтр:</p>
-					<h2>Цена:</h2>
-					
+					<h2>Цена:</h2>					
 						<div class="range-filter">
 							<div class="range-controls">
 								<div class="scale">
@@ -310,21 +309,6 @@
 				<button>Продолжить покупки</button>
 			</form>
 		</div>
-		<script type="text/javascript">
-			var link = document.querySelectorAll(".buy");
-			var popup = document.querySelector(".basket");
-			var close = popup.querySelector(".basket-close");
-			for (var i=0; i<link.length;i++) {
-				link[i].addEventListener("click", function(event) {
-					event.preventDefault();
-					popup.classList.add("basket-show");
-				});
-			};
-			close.addEventListener("click", function(event) {
-				event.preventDefault();
-				popup.classList.remove("basket-show");
-			});
-		</script>
-		<!-- <script type="text/javascript" src="js/scripts.js"></script> -->
+		<script src="js/scripts.js"></script>
 	</body>
 </html>

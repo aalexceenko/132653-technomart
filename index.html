@@ -2,14 +2,12 @@
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
-		<link href="css/style.css" rel="stylesheet">
-		
+		<link href="css/style.css" rel="stylesheet">		
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&subset=cyrillic" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic" rel="stylesheet">
 		<title>Техномарт</title>
 	</head>
-	<script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
 	<body>
 		<header class="main-header">
 			<div class="header">
@@ -27,16 +25,12 @@
 				</div>
 			</div>
 			<div class="header-continue">
-				<div class="container">
-					
+				<div class="container">					
 						<p class="about">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-					
-					
 					<article>
 						<p class="header-number"><span class="icon-phone"></span> +7 (812) 555-05-55</p>
 						<p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-					</article>
-					
+					</article>					
 					<div class="user-block">
 						<a class="login" href="#"><span class="icon-login"></span>Войти</a>
 						<a class="registration" href="#">Регистрация</a>
@@ -235,8 +229,7 @@
 							<img src="img/credit.png" alt="credit" width="465" height="285">
 						</div>
 					</div>
-				</div>
-							
+				</div>							
 			</section>
 			<section class="contacts">
 				<div class="container">
@@ -306,8 +299,7 @@
 					<section class="footer-feedback">
 						<p>Обратная связь:</p>
 						<a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-					</section>
-					
+					</section>					
 				</div>
 			</div>
 		</footer>
@@ -322,58 +314,17 @@
 		</div>
 		<div class="map" id="map">
 			<button class="map-close" type="button"></button>
-			<img src="img/map1.jpg" width="940" height="446">
+			<img src="img/map1.jpg" width="940" height="446" alt="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424124002!2d30.32089461617105!3d59.93879686904789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+ul.%2C+19%2C+Sankt-Peterburg%2C+191186!5e0!3m2!1sen!2sru!4v1473119069531" allowfullscreen></iframe>
 		</div>
-		<script type="text/javascript">
-			var link = document.querySelector(".connection-form");
-			var popup = document.querySelector(".write-us");
-			var close = popup.querySelector(".write-us-close");
-			var login = popup.querySelector("[name=name]");
-			var form = popup.querySelector("form");
-			var mail = popup.querySelector("[name=mail]");
-			var sms = popup.querySelector("[name=discrabe]");
-			link.addEventListener("click", function(event) {
-				event.preventDefault();
-				popup.classList.add("write-us-show");
-				login.focus();
-			});
-			close.addEventListener("click", function(event) {
-				event.preventDefault();
-				popup.classList.remove("write-us-show");
-				
-			});
-			form.addEventListener("submit", function(event) {
-				if (!login.value || !mail.value || !sms.value) {
-					event.preventDefault();
-				}
-			});
-			var map = document.querySelector(".map-open");
-			var popupmap = document.querySelector(".map");
-			var closemap = popupmap.querySelector(".map-close");
-			map.addEventListener("click", function(event) {
-				event.preventDefault();
-				popupmap.classList.add("map-show");
-			});
-			closemap.addEventListener("click", function(event) {
-				event.preventDefault();
-				popupmap.classList.remove("map-show");
-				
-			});
-// 			function initMap() { 
-// var mapDiv = document.getElementById('map'); 
-// var myLatLng = {lat: 59.9388049, lng: 30.3222035}; 
-// var map = new google.maps.Map(mapDiv, { 
-// center: myLatLng, 
-// zoom: 15 
-// }); 
-// var image = "img/icon-marker.png"; 
-// var marker = new google.maps.Marker({ 
-// position: myLatLng, 
-// map: map, 
-// icon: image 
-// }); 
-// }
-		</script>
-	<!-- 	<script  src="js/scripts"></script> -->
+		<div class="basket">
+			<button class="basket-close" type="button" title="Закрыть">Закрыть</button>
+			<h2>Товар добавлен в корзину!</h2>
+			<form class="basket-shop" action="#" method="post">
+				<button>оформить заказ</button>
+				<button>Продолжить покупки</button>
+			</form>
+		</div>
+		<script src="js/scripts.js"></script>
 	</body>
 </html>
