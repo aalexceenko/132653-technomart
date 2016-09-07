@@ -18,9 +18,9 @@ body {
 }
 input[type="checkbox"] + label::before, 
 input[type="radio"] + label::before, 
-button[type="search"], span, .slider-image:before, .slide:after,
-.slider-controls-arrow label::before, [class^="icon-"]:before,
- [class*=" icon-"]:before{
+button[type="search"], span, .slider-image::before, .slide::after,
+.slider-controls-arrow label::before, [class^="icon-"]::before,
+ [class*=" icon-"]::before{
 	display: inline-block;
 	width: 1em;
 	margin-right: 0.2em;
@@ -124,7 +124,7 @@ button[type="search"], span, .slider-image:before, .slide:after,
 	font-size: 17px;
 	cursor: pointer;
 }
-.search button:before {
+.search button::before {
 	content: "🔍";
 }
 .search:hover button {
@@ -374,7 +374,7 @@ input[type="search"]::-moz-input-placeholder {
 .personal-cabinet-action a:first-child {
 	padding-right: 20px;
 }
-.personal-cabinet-action:before {
+.personal-cabinet-action::before {
 	position: absolute;
 	content: "";
 	height: 4px;
@@ -459,7 +459,7 @@ input[type="search"]::-moz-input-placeholder {
 	margin-bottom: 20px;
 	position: relative;
 }
-.popular-sentence article:after {
+.popular-sentence article::after {
 	content: "";
 	display: block;
 	width: 64px;
@@ -472,25 +472,25 @@ input[type="search"]::-moz-input-placeholder {
 	left: 190px;
 	z-index: 1;
 }
-.popular-sentence .slider-image:after {
+.popular-sentence .slider-image::after {
 	display: none;
 }
-.popular-sentence .materials:after {
+.popular-sentence .materials::after {
 	background-position: 6px -4px;
 }
-.popular-sentence .technique:after {
+.popular-sentence .technique::after {
 	background-position: -128px -4px;
 	width: 83px;
 }
-.popular-sentence .tools:after {
+.popular-sentence .tools::after {
 	background-position: -213px -4px;
 	width: 83px;
 }
-.popular-sentence .transport:after {
+.popular-sentence .transport::after {
 	background-position: -301px -4px;
 	width: 83px;
 }
-.popular-sentence .sale:after {
+.popular-sentence .sale::after {
 	background-position: -57px -4px;
 }
 .popular-sentence h2 {
@@ -657,7 +657,7 @@ input[type="search"]::-moz-input-placeholder {
 }
 .actions .buy,
 .actions .bookmark {
-	font-family: 'Cuprum', "Arial", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	display: block;
 	width: 135px;
@@ -710,17 +710,17 @@ input[type="search"]::-moz-input-placeholder {
 	position: relative;
 	text-align: center;
 }
-.new:before {
+.new::before {
 	position: absolute;
 	top: -1px;
 	right: -1px;
 	z-index: 10;
 	width: 60px;
 	height: 60px;
-	content: '';
-	background: url('../img/new-flag.png') no-repeat 0 0;
+	content: "";
+	background: url("../img/new-flag.png") no-repeat 0 0;
 }
-.popular-sentence .new:before {
+.popular-sentence .new::before {
 	top: 0;
 	right: 0;
 }
@@ -1260,7 +1260,7 @@ input[type="search"]::-moz-input-placeholder {
 .filter-firms label:hover::before,.nutrition label:hover::before {
 	color: #b5b5b5;
 }
-.filter-firms label:before {
+.filter-firms label::before {
 	content: "\2610";
 	font-size: 28px;
 	line-height: 20px;
@@ -1271,14 +1271,14 @@ input[type="search"]::-moz-input-placeholder {
 	left: -8px;
 	margin-left: 0;
 }
-.filter-firms input:checked + label:before {
+.filter-firms input:checked + label::before {
 	content: "\2611";
 	left: -6px;
 }
 .filter-firms input[type="checkbox"] {
 	display: none;
 }
-.nutrition label:before {
+.nutrition label::before {
 	content: "\25cb";
 	padding-right: 10px;
 	font-size: 28px;
@@ -1289,7 +1289,7 @@ input[type="search"]::-moz-input-placeholder {
 	top: -4px;
 	left: -7px;
 }
-.nutrition input:checked + label:before {
+.nutrition input:checked + label::before {
 	content: "\25cf";
 }
 .nutrition label {
@@ -1341,7 +1341,7 @@ input[type="search"]::-moz-input-placeholder {
 	background-color: #f7f3ec;
 	position: relative;
 }
-.sorting .up:after {
+.sorting .up::after {
 	display: block;
 	content: "\25b2";
 	position: absolute;
@@ -1350,7 +1350,7 @@ input[type="search"]::-moz-input-placeholder {
 	color: #ee3643;
 	cursor: pointer;
 }
-.sorting .down:after {
+.sorting .down::after {
 	display: block;
 	content: "\25bc";
 	position: absolute;
@@ -1570,7 +1570,7 @@ input[type="search"]::-moz-input-placeholder {
 	margin: 0;
 	font-size: 21px;
 	line-height: 1;
-	font-family: 'Cuprum', "Arial", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	color: white;
 	list-style: none;
 	text-transform: capitalize;
@@ -1583,8 +1583,8 @@ input[type="search"]::-moz-input-placeholder {
 .tabs-nav label:hover {
 	background-color: #293449;
 }
-.tabs-nav:before {
-	content: url(../img/service.png);
+.tabs-nav::before {
+	content: url("../img/service.png");
 	position: absolute;
 	display: block;
 	top: 0;
@@ -1611,7 +1611,7 @@ input[type="search"]::-moz-input-placeholder {
 .tab-body h3 {
 	padding: 0 250px 0 0;
 	margin: 0;
-	font-family: 'Cuprum', "Arial", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 36px;
 	line-height: 1;
 	font-weight: normal;
@@ -1736,7 +1736,7 @@ input[type="search"]::-moz-input-placeholder {
 	border-radius: 2px;
 }
 .price-controls input {
-	font-family: 'Roboto', "Arial", sans-serif;
+	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
 	width: 95px;
 	padding: 8px 10px;
