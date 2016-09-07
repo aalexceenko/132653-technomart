@@ -4,8 +4,7 @@ body {
 	color: #000000;
 	font-weight: normal;
 	font-family: "PT Sans", "Cuprum", "Arial", sans-serif;
-	min-width: 1122px;
-	min-height: 1750px;
+	min-width: 960px;
 	margin: 0;
 	padding: 0;
 }
@@ -356,10 +355,13 @@ input[type="search"]::-moz-input-placeholder {
 .personal-cabinet-name button:last-child {
 	display: none;
 }
+.personal-cabinet-name a {
+	text-decoration: none;
+}
 .personal-cabinet-name a span {
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 18px;
-	padding-left: 20px;
+	padding-left: 15px;
 	color: #c5c5c5;
 }
 .personal-cabinet-action {
@@ -646,6 +648,9 @@ input[type="search"]::-moz-input-placeholder {
 	padding: 40px 0;
 	background-color: #fff; 
 }
+.catalog {
+	min-height: 1010px;
+}
 .catalog .actions {
 	position: absolute;
 	top: 0;
@@ -854,7 +859,7 @@ input[type="search"]::-moz-input-placeholder {
 }
 .popular-firms {
 	width: 940px;
-	height: 310px;
+	min-height: 310px;
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 20px;
@@ -907,6 +912,7 @@ input[type="search"]::-moz-input-placeholder {
 	box-sizing: border-box;
 	margin-top: 0; 
 	margin-bottom: 0;
+	font-weight: normal;
 }
 .company p, .connection p {
 	font-family: "PT Sans", "Arial", sans-serif;
@@ -1181,6 +1187,7 @@ input[type="search"]::-moz-input-placeholder {
 	box-sizing: border-box;
 	padding-top: 32px;
 	padding-left: 30px;
+	font-weight: normal;
 }
 .filter {
 	width: 220px;
@@ -1460,6 +1467,7 @@ input[type="search"]::-moz-input-placeholder {
 	padding-top: 63px;
 	padding-bottom: 27px;
 	color: #000000;
+	font-weight: normal;
 }
 .info p {
 	margin-top: 0;
@@ -1675,6 +1683,7 @@ input[type="search"]::-moz-input-placeholder {
 	padding-top: 70px;
 	padding-bottom: 35px;
 	margin-bottom: 0;
+	font-weight: normal;
 }
 .service p {
 	font-family: "PT Sans", "Arial", sans-serif;
